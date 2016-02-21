@@ -1,0 +1,168 @@
+body {
+
+
+}
+.cover {
+    margin-top:40px;
+    width:700px; 
+    margin:0px; 
+	padding-left:55px;
+	padding-top:30px;
+	
+}
+ 
+
+ 
+p.contact { 
+    font-size: 18px;
+	margin-top:15px;
+    margin-bottom: 15px; 
+    line-height: 36px; 
+    font-family: sans-serif, Arial; 
+    color: rgba(255, 255, 255, 0.4); 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2); 
+}
+ 
+#contact {
+    margin-bottom: 0px; 
+}
+ 
+input[type="text"] {
+    width: 400px; 
+}
+ 
+textarea { 
+    width: 600px; 
+    height: 275px; 
+}
+ 
+label { 
+    color: white; 
+}
+ 
+input, textarea { 
+    background-color: rgba(255, 255, 255, 0.4); 
+    border: 5px solid rgba(54, 94, 255, 0.4); 
+    padding: 10px; 
+    font-family: Keffeesatz, Arial; 
+    color: #4b4b4b; 
+    font-size: 24px; 
+    -webkit-border-radius: 5px;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+ 
+input:focus, textarea:focus { 
+    border: 5px solid #ff5400; 
+    background-color: rgba(255, 255, 255, 1);
+}
+ 
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    color: rgb(0%, 10%, 50%);
+    font-size: 20px;
+    background-color: rgb(151, 189, 247);
+    padding: 5px 30px 8px 30px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-top: 1px solid rgba(255, 255, 255, 0.6);
+    
+}
+ 
+input[type="submit"]:hover {
+    color: rgb(0%, 10%, 50%);; 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4); 
+    background-color: #ff5400;
+    background: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.23, #c34000),
+        color-stop(0.62, #ff5400)
+    );
+    background: -moz-linear-gradient(
+        center bottom,
+        #c34000 23%,
+        #ff5400 62%
+    );
+}
+ 
+input[type="submit"]:active { 
+    top: 1px; 
+}
+
+	.demo-bar:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+	.demo-bar img:first-of-type {
+		float: left;
+		max-width: 100%;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+
+	.demo-bar .left {
+		float: left;
+		width: 60%;
+		height: 118px;
+		position: relative;
+	}
+
+	.demo-bar .right {
+		background: url(images/demo-bar-right.jpg) left no-repeat #2e2e2e;
+		width: 40%;
+		max-width: 350px;
+		height: 118px;
+		float: right;
+		position: relative;
+	}
+
+		.demo-bar p {
+			width: auto;
+			color: #666;
+			position: absolute;
+			bottom: 30px;
+			right: 5%;
+			text-align: right;
+		}
+
+		.demo-bar a {
+			color: #ccc;
+			font-size: 10px;
+			border-bottom: 1px dotted #999;
+			text-transform: uppercase;
+			text-decoration: none;
+		}
+
+		.twitter-buttons {
+			position: absolute;
+			top: 20px;
+			right: 5%;
+			text-align: right;
+		}
+
+	.clearfix {
+		clear: both;
+	}
+
+	@media screen and (max-width:580px) {
+		.demo-bar .left {
+		}
+
+		.demo-bar .right {
+			background: none;
+		}
+
+		.demo-bar p {
+			width: 100px;
+			color: #252525;
+		}
+	}
